@@ -1,0 +1,225 @@
+.task{
+    height: 100px;
+    background-color: #eee;
+    padding-top: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+.task img{
+    margin-left: 30%;
+}
+.task_area{
+    margin-left:80px;
+}
+.gn_search {
+    background: linear-gradient(to bottom, #f7f7f7 0%, #ededed 50%, #e6e6e6 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 24px;
+    display: inline;
+    float: left;
+    height: 30px;
+    margin: 12px 0 0 25px;
+    position: relative;
+    width: 200px;
+}
+.gn_search .gn_input {
+    outline:medium;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    color: #808080;
+    margin: 5px 0 0 10px;
+    vertical-align: middle;
+    width: 150px;
+}
+.gn_search .gn_btn {
+    background: url("bg_line.png") no-repeat scroll -450px -6px rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 20px;
+	margin-top: 6px;
+    vertical-align: middle;
+    width: 20px;
+}
+#nav {
+    border-bottom: medium none;
+    position: relative;
+    z-index: 2;
+}
+#nav .navPublic .navTop > li a.btn-link {
+    color: #eee;
+    text-decoration: underline;
+}
+#nav .navPublic .navTop > li a.active {
+    color: #fff;
+}
+.hero-unit {
+    background-image: url("hero-home03.jpg");
+    background-position: center center;
+    background-size: cover;
+    bottom: 0;
+    left: 0;
+    max-height: 100%;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.hero-unit h1, .hero-unit h2 {
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.hero-unit h1 {
+    font-size: 50px;
+    line-height: 60px;
+}
+.hero-unit .signupForm h1 {
+    letter-spacing: -2px;
+}
+.hero-unit h2 {
+    font-style: italic;
+    font-weight: 500;
+    margin: 0 auto 40px;
+}
+.hero-unit .container {
+    height: 100%;
+    position: relative;
+}
+.hero-unit .signup-form-block {
+    margin:10px;
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 8px;
+    padding: 15px;
+}
+.hero-unit .signupForm .input-bigger {
+    border-color: #fff;
+    border-radius: 4px;
+    height: 56px;
+    padding: 10px 18px;
+}
+.hero-unit .btn-uppercase {
+    text-transform: uppercase;
+}
+.hero-unit .signupForm .btn-bigger {
+    border-radius: 4px;
+    font-size: 17px;
+    padding: 16px;
+}
+.hero-unit .signupForm {
+    margin-top: -125px;
+    position: absolute;
+    top: 50%;
+}
+.hero-unit .signupForm #password_icon.btn-danger {
+    background: none repeat scroll 0 0 #eee;
+}
+.hero-unit .signupForm #password_icon.checkpswd {
+    bottom: 5px;
+    height: 2px;
+    left: 26px;
+    position: absolute;
+    right: 26px;
+}
+.hero-unit .getmore {
+    bottom: 24px;
+    display: block;
+    height: 52px;
+    left: 50%;
+    margin-left: -26px;
+    position: absolute;
+    transition: all 0.4s ease 0s;
+    width: 52px;
+}
+.hero-unit .getmore:hover {
+    bottom: 10px;
+    transition: all 0.6s ease 0s;
+}
+.hero-unit .getmore .icon-bar {
+    background-color: #fff;
+    display: block;
+    height: 2px;
+    width: 24px;
+}
+.hero-unit .getmore .icon-bar-left {
+    left: 4px;
+    position: relative;
+    top: 27px;
+    -moz-transform: rotate(45deg);
+	-webkit-transform:rotate(45deg);
+}
+.hero-unit .getmore .icon-bar-right {
+    left: 20px;
+    position: relative;
+    top: 25px;
+    -moz-transform: rotate(-45deg);
+	-webkit-transform:rotate(-45deg);
+}
+#footer {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 100%;
+}
+.listTable {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    bottom: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 0;
+    width: 80%;
+}
+.tableTitle {
+    background-color: #ffffff;
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    width: 80%;
+}
+.picHead {
+    background-color: #ffffff;
+    display: inline-block;
+    margin: auto;
+    padding: 5px 14px;
+}
+
+.wheel {
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-name: bdrmodow;
+    animation-play-state: running;
+    animation-timing-function: linear;
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 50%;
+    height: 9px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 4px;
+    width: 6px;
+}
+.mouse-icon {
+    border: 2px solid #fff;
+    border-radius: 15px;
+    bottom: 40px;
+    cursor: pointer;
+    display: inline-block;
+    height: 44px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 30px;
+    z-index: 9;
+}
+.display_name {
+    max-width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.display_name:hover {
+    overflow: visible;
+    text-overflow: inherit;
+}
