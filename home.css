@@ -33,7 +33,7 @@
     width: 150px;
 }
 .gn_search .gn_btn {
-    background: url("bg_line.png") no-repeat scroll -450px -6px rgba(0, 0, 0, 0);
+    background: url("https://github.com/RanDomWoW/yueba/raw/master/bg_line.png") no-repeat scroll -450px -6px rgba(0, 0, 0, 0);
     display: inline-block;
     height: 20px;
 	margin-top: 6px;
@@ -53,7 +53,7 @@
     color: #fff;
 }
 .hero-unit {
-    background-image: url("hero-home03.jpg");
+    background-image: url("https://github.com/RanDomWoW/yueba/raw/master/hero-home03.jpg");
     background-position: center center;
     background-size: cover;
     bottom: 0;
