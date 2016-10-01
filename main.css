@@ -499,7 +499,7 @@ section.lightgrey {
 	font-size:20px;
 }
 .gn_search .gn_btn {
-    background: url("bg_line.png") no-repeat scroll -450px -6px rgba(0, 0, 0, 0);
+    background: url("https://github.com/RanDomWoW/yueba/raw/master/bg_line.png") no-repeat scroll -450px -6px rgba(0, 0, 0, 0);
     display: inline-block;
     height: 20px;
     margin-top: 6px;
